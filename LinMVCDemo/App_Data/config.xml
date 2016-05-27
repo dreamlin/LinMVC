@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <Rewrites>
+    <Rewrite Url="/new/" Regex="" ToUrl="/Root/Item/?context=新品"/>
+    <Rewrite Url="" Regex="/item/([0-9A-Za-z]+)/?" ToUrl="/Root/Item/?context=$1"/>
+  </Rewrites>
+  <Exts>
+    <Ext>.html</Ext>
+  </Exts>
+  <Filters>
+    <Filter ClassName="MayMay.Controller.Filter" MethodName="CheckLogin" ToUrl="/my/login/"/>
+  </Filters>
+  <DefaultController>root</DefaultController>
+  <ErrorUrl>/error/</ErrorUrl>
+</config>
