@@ -58,6 +58,7 @@ namespace LinMVC
             else
             {
                 context.Items["UrlKeyValue"] = null;
+                context.Response.Headers.Add("Content-Type", "text/javascript;charset=UTF-8");
                 context.Response.Write(content);
             }
             context.Response.End();

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinMVCDemo", "LinMVCDemo\LinMVCDemo.csproj", "{B185FC42-D6CE-46A2-BC36-D51086201DAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinMVC", "LinMVC\LinMVC.csproj", "{903C5F48-FF8C-4AC0-8C6B-246639303A04}"
